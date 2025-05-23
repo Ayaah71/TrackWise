@@ -1,0 +1,136 @@
+body {
+    font-family: 'Righteous', sans-serif;
+    margin: 10;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Righteous', sans-serif;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0%;
+}
+
+.left-half {
+    background-color: #1E3A5F;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.right-half {
+    background-color: #F5F5F5;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    background-image: url('https://i.imgur.com/xyz123.jpg'); /* Replace with actual background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.left-half h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.left-half p {
+    font-size: 24px;
+    margin: 5px 0;
+    color: white;
+    text-align: center;
+}
+
+.right-half h2 {
+    font-size: 36px;
+    color: #1E3A5F;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    background-color: #E0E0E0;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+}
+
+.input-field input {
+    border: none;
+    background: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+.input-field img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.radio-group label {
+    margin: 0 20px;
+    font-size: 16px;
+    color: #1E3A5F;
+}
+
+input[type="radio"] {
+    accent-color: #1E3A5F;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.button {
+    background-color: #1E3A5F;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.button-outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.button-outline:hover,
+.button:hover {
+    opacity: 0.9;
+}
